@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&family=Raleway&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rajdhani", sans-serif;
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(rgb(65, 65, 65), rgb(0, 0, 0));
+}
+
+.logo {
+  display: block;
+  margin: 8px auto;
+  width: 10em;
+  margin-top: 12px;
+}
+
+h1 {
+  margin-bottom: 12px;
+  font-size: 1.3em;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-weight: lighter;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+  height: 65vh;
+  border-radius: 16px;
+  padding: 13px;
+  overflow-y: auto;
+
+  /* bg glassmorphism */
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.message {
+  background-color: rgba(255, 255, 255, 0.6);
+  max-width: 44%;
+  width: auto;
+  word-wrap: break-word;
+  padding: 10px;
+  margin: 8px 0;
+  margin-bottom: 0;
+  border-radius: 12px;
+  font-size: 18px;
+}
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+#send-container {
+  max-width: 90%;
+  margin: 12px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#messageInp {
+  width: 88%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  padding: 12px;
+  outline: none;
+  font-size: 18px;
+  margin-right: 4px;
+}
+
+.btn {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+  width: 75px;
+  font-size: 18px;
+  margin-left: 4px;
+}
+
+.btn:hover {
+  color: black;
+  background-color: whitesmoke;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 255, 255, 0.5);
+}
